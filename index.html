@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KNOTS | Why Knot?</title>
+    <link rel="icon" type="image/x-icon" href="logoblack.ico">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Shopping</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+
+        </nav>
+
+        <img class="logoblack" src="logoblack.png" />
+        <img class="leftbg" src="leftbg.png" />
+        <img class="bag1" src="bag1.png" />
+        <img class="bag2" src="bag2.png" />
+        <img class="bag3" src="bag3.png" />
+
+        <div class="main-content">
+
+            <div class="image-frappegreen"><!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img3.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img2.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-text">
+                <h1>The KNOTS</h1>
+                <p>Tie the knot and rock the latest styles with our versatile bag</p>
+                <p>EMBRACE THE TREND</p>
+                <button>Order Now</button>
+            </div>
+
+  <!--         <div class="right">
+                <div class="box">
+                    <div class="image">
+                        <img src="bag1.png" alt="">
+                    </div>
+                    <div class="inner-box">
+                        <h3>100% Japan cotton twil</h3>
+                        <p>Made of cotton.</p>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <div class="image">
+                        <img src="bag2.png" alt="">
+                    </div>
+                    <div class="inner-box">
+                        <h3>Not Expensive</h3>
+                        <p>Just right</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="bag3.png" alt="">
+                    </div>
+                    <div class="inner-box">
+                        <h3>Collaborative</h3>
+                        <p>......</p>
+                    </div>
+                </div>
+            </div>
+--> 
+            <div class="social-links">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="far fa-envelope"></i>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper",
+                {
+                    slidesPerView: 1,
+                    loop: true,
+                    autoplay:
+                    {
+                        delay: 1000,
+                        disableOnInteraction: false
+                    },
+                    effect: "cube",
+                    cubeEffect:
+                    {
+                        shadow: true,
+                        slideShadows: true,
+                        shadowOffset: 20,
+                        shadowScale: 0.94,
+                    }
+                });
+        </script>
+</body>
+
+</html>
